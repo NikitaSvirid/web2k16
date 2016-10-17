@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { background:#edeef0; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+
+header {
+    text-align: justify;
+    height: 100px;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+
+header > div {
+    height: 100%;
+}
+
+
+
+header h1 {
+  width: 400px;
+}
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+  color: #e6eacc;
+}
+#body{
+  height:100%;
+  background-color:#ade3ff;
+width: 1000px;
+margin: auto;
+opacity: 0.9;
+border: 5px solid #cccccc;
+}
+
+.2{
+  width: 600px;
+  margin: 0 auto;
+}
+#body h1  {
+  width: 600px;
+  padding-left: 400px;
+}
+.text {
+    padding: 20px;
+}
+#body img {
+  float: left;
+}
+.logo {
+  position: absolute;
+  float: left;
+  display: block;
+  height: 123px;
+  right: 23px;
+
+}
+
+.text{
+  margin: 20px;
+  padding: 20px;
+}
+.gallery a{
+  margin-left: 60px;
+}
+.gallery{
+    margin-bottom: 30px;
+    margin-top: 230px;
+}
+.news h1{
+
+}
+.news img{
+  float: left;
+  margin-right: 20px;
+  height: 300px;
+  width: 300px;
+}
+.news p{
+  margin: 20px;
+}
+
+.title{
+  margin-bottom: 100px;
+  margin-right:600px;
+  height: 300px;
+  width: 500px;
+  margin-left: 250px;
+}
+#gallery img{
+  height: 300px;
+  width: 300px;
+}
+.tutle {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#fp {
+  margin-left: 23px;
+}
+#gp {
+margin-left: 23px;
+}
+.news a {
+  text-decoration: none;
+  color: #406375;
+}
+.news a:hover {
+  color: red;
+font-style: italic;
+}
+.picture{
+  margin-left: 20px;
+}

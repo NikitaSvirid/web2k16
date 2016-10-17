@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+	<script type="text/javascript" src="fancyapps-fancyBox-18d1712/lib/jquery-1.10.1.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/jquery.fancybox.js"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+  <title>SchoolTravel</title>
+  <style>#body img { -webkit-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;
+padding: 8px;
+background: #ffffff;
+border: 1px solid #d0d0d0;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+#body img:hover {-moz-transform: scale(1.1);-webkit-transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);
+background: #ffffff;
+border: 1px solid #cccccc;
+text-decoration: none;
+text-shadow: none;
+-moz-box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
+-webkid-box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
+box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
+}</style>
+</head>
+<body>
+  <img img class="logo" src="images/vo.png">
+  <header>
+    <h1>SchoolTravel</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="sofi.htm">Діючи тури</a>
+      <img src="images/ico_facebook.gif" alt="" height="15px" width="15px"><img src="images/ico_twitter.gif" alt=""height="15px" width="15px"><img src="images/ico_vk.gif" alt=""height="15px" width="15px">
+    </nav>
+  </header>
+  <div id="body">
+	  <div id='scooltravel'>
+		  <h1 id='SchoolTravel'>SchoolTravel!</h1>
+			<p class="tutle">SchoolTravel - найкраща компанія для подорожей УКРАЇНою</p>
+		 <img class='title'src="images/time-to-travel.jpg" alt="">
+	  </div>
+	  <div class="news"><h1>Діючи тури</h1>
+	  <a class="fancybox" rel="group" href='images/1324909531_007.jpg'><img class="picture" src="images/1324909531_007.jpg"/></a>
+	  <p>НАЦІОНА́ЛЬНИЙ ДЕНДРОЛОГІ́ЧНИЙ ПАРК «СОФІ́ЇВКА» — ПАРК, НАУКОВО-ДОСЛІДНИЙ ІНСТИТУТ НАЦІОНАЛЬНОЇ АКАДЕМІЇ НАУК УКРАЇНИ. НА СЬОГОДНІ...</p>
+	  <a href="sofi.htm">Детальніше</a>
+	  </div>
+
+	  <div id='gallery'>
+	  <h1 class="gallery">Галерея</h1>
+	  <a class="fancybox" rel="group" href="images/1.jpg"><img id='fp' src="images/1.jpg" alt=""/></a>
+	  <a class="fancybox" rel="group" href="images/2.jpg"><img src="images/2.jpg" alt="" /></a>
+	  <a class="fancybox" rel="group" href="images/3.jpg"><img src="images/3.jpg" alt="" /></a>
+	  <a class="fancybox" rel="group" href="images/4.jpg"><img id='gp' src="images/4.jpg" alt="" /></a>
+	  <a class="fancybox" rel="group" href="images/5.jpg"><img src="images/5.jpg" alt="" /></a>
+	  <a class="fancybox" rel="group" href="images/6.jpg"><img src="images/6.jpg" alt="" /></a>
+	  </div>
+      <p class="copyright">Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+  </div>
+</body>
+</html>
